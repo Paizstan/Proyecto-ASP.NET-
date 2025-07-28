@@ -1,0 +1,75 @@
+﻿@model IEnumerable<WebApplication1.Models.Producto>
+@{
+    ViewData["Title"] = "VISTA CREADA DESDE CERO";
+}
+@{
+    <h1>@ViewData["Title"]</h1>
+}
+<h2>Nombre de un campo</h2>
+@Html.DisplayNameFor(model => model.Nombre)
+
+<h2>Lista de productos</h2>
+@foreach (var item in Model)
+{
+    <h6>@item.Nombre</h6>
+}
+
+<hr />
+<h1>Uso de ViewBag</h1>
+<h2>Elementos obtenidos desde el controlador</h2>
+<h6>@ViewBag.Comentario1</h6>
+<h6>@ViewBag.a1</h6>
+
+<h2>Valores del arreglo de números</h2>
+@foreach (var item in ViewBag.a1)
+{
+    <h6>@item</h6>
+}
+
+<h2>Lista de nombres</h2>
+<ol>
+    @foreach (var nombre in ViewBag.Nombres)
+    {
+        <li>@nombre</li>
+    }
+</ol>
+
+
+<h2>Sistemas Operativos Populares</h2>
+<ol>
+    @foreach (var so in ViewBag.SistemasOperativos)
+    {
+        <li>@so</li>
+    }
+</ol>
+
+@foreach (byte b in ViewBag.Hash)
+{
+    <p>@b</p>
+}
+
+
+<a asp-controller="Prueba" asp-action="GeneratePdf">GenerarPDF</a>
+
+<a asp-action="Crear"> Nuevo producto</a> 
+
+<a asp-action="Colores">Mostrar Colores</a>
+
+<p>@ViewBag.T</p>
+
+<hr />
+
+<div class="card" style="width: 18rem;">
+    <div class="card-header">
+        LISTA DE PRODUCTOS
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Según promedio de precios</h5>
+        <p class="card-text">Utilice esta opción para ver la lista de productos cuyo precio sea menor o mayor que el promedio de precio</p>
+        <a asp-action="ListaPrecioMedio" class="btn btn-danger" asp-route-mayores="false">Menores</a>&nbsp;<a asp-action="ListaPrecioMedio" class="btn btn-success" asp-route-mayores="true">Mayores</a>
+    </div>
+</div>
+
+
+
+

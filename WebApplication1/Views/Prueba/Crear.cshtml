@@ -1,0 +1,22 @@
+﻿@model WebApplication1.Models.Producto
+
+<h1>Nuevo Producto</h1>
+<div class="container">
+    <form asp-action="Guardar">
+        <div>
+            <label asp-for="Nombre" class="control-label"></label>
+            <input asp-for="Nombre" class="form-control" />
+        </div>
+        <div>
+            <label asp-for="Existencia" class="control-label"></label>
+            <input asp-for="Existencia" class="form-control" />
+        </div>
+        <div>
+            <label asp-for="Precio" class="control-label"></label>
+            <input asp-for="Precio" class="form-control" />
+        </div>
+        <input type="submit" value="Guardar" class="btn btn-primary" />
+    </form>
+</div>
+
+<a asp-action="Targeta" asp-route-id="1">Ver el producto con ID 1</a>

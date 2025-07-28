@@ -1,0 +1,24 @@
+﻿@model IEnumerable<WebApplication1.Models.Producto>
+
+<h2 class="text-success">Lista de productos @ViewBag.Titulo que el promedio</h2>
+<h4 class="text-info">Precio promedio: $ @ViewBag.Promedio</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Existencia</td>
+                <td>@item.Nombre</td>
+                <td>@item.Precio</td>
+            </tr>
+        }
+    </tbody>
+</table>

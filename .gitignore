@@ -1,0 +1,29 @@
+# Archivos de compilación
+bin/
+obj/
+*.dll
+*.exe
+
+# Configuración del usuario y entorno local
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos sensibles
+*.env
+appsettings.Development.json
+appsettings.Local.json
+
+# Publicaciones
+publish/

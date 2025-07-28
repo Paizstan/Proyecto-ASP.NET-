@@ -1,0 +1,17 @@
+﻿@model WebApplication1.Models.Producto
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Nombre</h5>
+        <div>
+            ID: @Model.Id
+        </div>
+        <div>
+            Existencia: @Model.Existencia
+        </div>
+        <div>
+            Precio: @Model.Precio
+        </div>
+        <a class="nav-link text-dark" asp-area="" asp-action="Index">Salir</a>
+    </div>
+</div>

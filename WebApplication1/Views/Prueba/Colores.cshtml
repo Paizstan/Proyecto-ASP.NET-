@@ -1,0 +1,56 @@
+﻿@model WebApplication1.Models.Producto
+
+@{
+    var colores = (string[])ViewBag.Colores;
+    string color = ViewBag.ColorSeleccionado as string;
+    int? id = ViewContext.RouteData.Values["id"] as int?;
+
+    string rgbaColor = color?.ToLower() switch
+    {
+        "rojo" or "red" => "rgba(255, 0, 0, 0.2)",
+        "verde" or "green" => "rgba(0, 128, 0, 0.2)",
+        "azul" or "blue" => "rgba(0, 0, 255, 0.2)",
+        "amarillo" or "yellow" => "rgba(255, 255, 0, 0.2)",
+        "morado" or "purple" => "rgba(128, 0, 128, 0.2)",
+        _ => "rgba(240, 240, 240, 0.4)" //Gris por defecto en la parte de abajo
+    };
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Buscar Color</h4>
+        </div>
+        <div class="card-body">
+            <form method="get" class="row g-3">
+                <div class="col-md-8">
+                    <label for="id" class="form-label">
+                        Ingresa un número (0 - @(colores.Length - 1)):
+                    </label>
+                    <input type="number" id="id" name="id" min="0" max="@(colores.Length - 1)" class="form-control" required />
+                </div>
+                <div class="col-md-4 d-flex align-items-end">
+                    <button type="submit" class="btn btn-success w-100">Buscar</button>
+                </div>
+            </form>
+
+            <div class="mt-4">
+                @if (!string.IsNullOrEmpty(color))
+                {
+                    <div class="p-4 rounded" style="background-color:@rgbaColor;">
+                        <h5 class="m-0 fw-bold">El color es: <span style="color:@color;">@color</span></h5>
+                    </div>
+                }
+                else if (ViewBag.ColorSeleccionado == null && !string.IsNullOrEmpty(Context.Request.Query["id"]))
+                {
+                    <div class="alert alert-danger">
+                        Número no válido. Intenta con un valor entre 0 y @(colores.Length - 1).
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="card-footer text-end">
+            <a class="btn btn-outline-secondary" asp-area="" asp-action="Index">Salir</a>
+        </div>
+    </div>
+</div>
