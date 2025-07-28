@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:.gitignore||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\webapplication1\\webapplication1\\utilidades\\tableusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\utilidades\\tableusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\webapplication1\\webapplication1\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\webapplication1\\webapplication1\\controllers\\pruebacontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\pruebacontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\webapplication1\\webapplication1\\utilidades\\tableusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\utilidades\\tableusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\webapplication1\\webapplication1\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\source\\repos\\webapplication1\\webapplication1\\views\\shared\\_paginacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{78FE0971-45EF-4CE9-A0B6-678537B204B1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_paginacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Role.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Role.cs",
@@ -91,19 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TableUsuario.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Utilidades\\TableUsuario.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Utilidades\\TableUsuario.cs",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Utilidades\\TableUsuario.cs",
               "RelativeToolTip": "WebApplication1\\Utilidades\\TableUsuario.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T17:57:00.911Z"
+              "WhenOpened": "2025-07-28T17:57:00.911Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productoes\\Create.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Productoes\\Create.cshtml",
@@ -115,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
@@ -127,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Prueba\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Prueba\\Index.cshtml",
@@ -139,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PruebaController1.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\PruebaController1.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\PruebaController1.cs",
@@ -147,12 +148,11 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\PruebaController1.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAAQwBIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T16:26:16.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T16:26:16.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Db1Context.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Db1Context.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Db1Context.cs",
@@ -164,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\ErrorViewModel.cs",
@@ -176,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
@@ -184,11 +184,12 @@
               "RelativeToolTip": "WebApplication1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T22:58:50.296Z"
+              "WhenOpened": "2025-07-24T22:58:50.296Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Productoes\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Productoes\\Index.cshtml",
@@ -212,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Clientes\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Clientes\\Index.cshtml",
@@ -220,8 +221,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Clientes\\Index.cshtml",
               "ViewState": "AgIAAD4AAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-24T17:21:44.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T17:21:44.957Z"
             }
           ]
         }
