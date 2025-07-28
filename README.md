@@ -1,7 +1,5 @@
 # Proyecto ASP.NET MVC - Gestión de Clientes
 
-# Proyecto ASP.NET MVC - Gestión de Clientes
-
 Este es un proyecto ASP.NET Core MVC para la gestión de clientes, desarrollado como parte del curso **Construcción de Aplicaciones Web**.
 
 ## Funcionalidades
